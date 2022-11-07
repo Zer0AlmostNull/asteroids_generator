@@ -15,7 +15,7 @@ MIN_ANGLE_DIST = 5 * math.pi/18 # 50°
 RADIUS = IMG_SIZE // 2 - IMG_MARGIN
 COLOR_RANGE = (40, 90)
 
-def generate_asteroid(path: str):
+def generate_asteroid(path: str = None):
     # pick random color
     COLOR = random.randrange(COLOR_RANGE[0], COLOR_RANGE[1])
     
