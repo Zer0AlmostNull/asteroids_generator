@@ -48,4 +48,4 @@ def generate_asteroid(path: str = None):
         image.save(path)
 
 if __name__ == "__main__":
-    generate_asteroid()
+    generate_asteroid(None)
